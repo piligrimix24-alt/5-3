@@ -1,0 +1,67 @@
+.header {
+    width: 100%;
+    min-width: 1440px;
+    margin: 0;
+    padding: 0;
+}
+
+.header__wrapper {
+    width: 100%;
+    min-width: 1440px;
+    min-height: 120px;
+    display: grid;
+    grid-template-columns: 170px 398px 330px 47px 48px 205px 142px;
+    padding: 0 50px 0 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__about-project {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0;
+}
+
+.header__change-language {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 24px;
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 0;
+    text-align: left;
+}
+
+.header__mark-page {
+    background: none;
+    border: none;
+    padding: 0;
+    text-align: left;
+}
+
+.header__pick-apartments {
+    display: block;
+    width: 165px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 60px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__link-pick-apartments {
+    font-size: 13px;
+    line-height: 40px;
+    padding: 0;
+    text-align: center;
+}
+
+.header__phone {
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+}

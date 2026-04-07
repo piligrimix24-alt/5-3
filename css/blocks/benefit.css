@@ -1,0 +1,40 @@
+.benefit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 360px;
+  min-height: 480px;
+  border: 2px solid #FFFFFF;
+  padding: 20px;
+}
+
+.benefit--round-all {
+  border-radius: 180px;
+}
+
+.benefit--apartment {
+  background-image: url("../../images/image-apartment.jpg");
+}
+
+.benefit__number {
+  font-family: "Ardeco", "Arial", sans-serif;
+  margin: 0 0 16px;
+  font-size: 80px;
+  line-height: 60px;
+}
+
+.benefit__text {
+  margin: 0 0 24px;
+  font-size: 22px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.benefit--privacy {
+  background-image: url("../../images/Rectangle 376714432.jpg");
+}
+
+.benefit--round-top {
+  border-radius: 180px 180px 0 0;
+}
